@@ -1,4 +1,6 @@
-# RoomSync — Frontend (Azure Static Web Apps)
+# Common Service Portal — Frontend (Azure Static Web Apps)
+
+> **GitHub deployment:** this repo deploys via GitHub Actions (`.github/workflows/deploy-frontend.yml`). Push to `main` (or run the workflow manually) and the prebuilt files at the repo root are uploaded to your Static Web App — no build runs. Set the repo secret `AZURE_STATIC_WEB_APPS_API_TOKEN` (Static Web App → Manage deployment token) before the first push.
 
 Prebuilt single-page app. **No build step** — the bundle is shipped ready to
 serve, as required.
